@@ -1,4 +1,6 @@
-def hello():
-    print('Hello World')
+def hello(a,b):
+    return a+b
 
-hello()
+result = hello(1,2)
+print(result)
+
